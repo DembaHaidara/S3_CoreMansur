@@ -1,0 +1,44 @@
+h1{
+    font-family: 'Open Sans Extra Bold', sans-serif;
+    font-weight: bold;
+    color: #253439;
+    display: block;
+    text-align: center;
+    padding: 30px 0px;
+}
+
+#padding{
+    padding: 0px 17%;
+    padding-top: 2%;
+    border: 1px solid grey;
+    text-align: center;
+    margin-right: 20%;
+    margin-left: 20%;
+
+}
+
+.border-white{
+    border:8px white solid;
+    background-color: #f2f3f2;
+}
+
+input:focus{
+    outline: none;
+ 
+}
+#soumettre{
+    background-color: #1d1714;
+    color: white;
+    display: flex;
+    justify-content: end;
+    font-weight: bold;
+}
+
+.duo{
+  
+    margin: 60px 0px;
+}
+
+input{
+    font-size: x-large;
+}

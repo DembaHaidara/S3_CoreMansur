@@ -1,0 +1,119 @@
+html {
+  height: 100%;
+  display: block;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #f2f3f2;
+}
+
+.full {
+  display: flex;
+  justify-content: space-around;
+  vertical-align: middle;
+  flex-direction: column;
+}
+
+#connect {
+  text-align: center;
+  color: #253439;
+}
+
+.full h1 {
+  text-align: center;
+  color: #253439;
+}
+
+.connexion {
+  display: flex;
+  flex-direction: column;
+}
+
+.invite {
+  width: 45%;
+}
+
+.invite p {
+  text-align: center;
+}
+
+.connexion p {
+  text-align: start;
+  margin: auto;
+}
+
+.mdp {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  margin: 1% 0px;
+}
+
+.border-white {
+  border: 4px white solid;
+  background-color: #f2f3f2;
+  font-size: large;
+  border-radius: 5px;
+  width: 100%;
+}
+
+input:focus {
+  outline: none;
+}
+
+.submit {
+  background-color: #1d1714;
+  color: white;
+  font-weight: bold;
+}
+
+small {
+  font-size: x-small;
+}
+
+form p {
+  margin: 5% 0px;
+}
+
+#overall {
+  /*margin: 10% 0px;*/
+}
+
+button {
+  font-size: 100%;
+}
+
+#margintop {
+  margin-top: 5%;
+}
+p {
+  text-align: center;
+  width: auto;
+  font-size: 120%;
+}
+#message {
+  height: 179px;
+  width: 700px;
+}
+
+h1 strong {
+  font-size: xx-large;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+}
+.form p {
+  margin-top: 15px;
+}
+
+@media (max-width: 800px) {
+  #message {
+    width: 300px;
+  }
+}

@@ -1,0 +1,104 @@
+html{
+    height: 100%;
+    display: block;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f2f3f2;
+}
+
+.full{
+    display: flex;
+    justify-content: space-around;
+    vertical-align: middle;
+}
+
+#connect{
+    text-align: center;
+    color: #253439;
+}
+
+.full h1{  
+    text-align: center;   
+    color: #253439;
+}
+
+.connexion{
+    display: flex;
+    flex-direction: column;
+    font-size: x-large;
+}
+
+.invite{
+    width: 45%;
+}
+
+.invite p{
+    text-align: center;
+}
+
+.connexion p{
+    text-align: start;
+    margin: auto;
+}
+
+.mdp{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    margin: 5% 0px;
+}
+
+
+.border-white{
+    border:4px white solid;
+    background-color: #f2f3f2;
+    font-size:large;
+    border-radius: 5px;
+    
+    
+}
+
+input:focus{
+    outline: none;
+ 
+}
+
+.submit{
+    background-color: #1d1714;
+    color: white;
+    font-weight: bold;
+}
+
+small{
+    font-size: x-small;
+}
+
+form p{
+    margin: 5% 0px;
+}
+
+
+#overall{
+    /*margin: 10% 0px;*/
+}
+
+button{
+    font-size: 100%;
+}
+.fontsize{
+    font-size: 75%;
+}
+
+#margintop{
+    margin-top: 5%;
+}
+p{
+    text-align: center;
+    width: auto;
+    font-size: 120%;
+}

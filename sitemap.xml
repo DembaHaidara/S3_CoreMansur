@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://coremansur.000webhostapp.com/</loc>
+  <lastmod>2022-01-06T17:15:08+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://coremansur.000webhostapp.com/?controller=home</loc>
+  <lastmod>2022-01-06T17:15:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://coremansur.000webhostapp.com/?controller=shop</loc>
+  <lastmod>2022-01-06T17:15:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://coremansur.000webhostapp.com/?controller=collection</loc>
+  <lastmod>2022-01-06T17:15:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://coremansur.000webhostapp.com/?controller=galerie</loc>
+  <lastmod>2022-01-06T17:15:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://coremansur.000webhostapp.com/?controller=aboutus</loc>
+  <lastmod>2022-01-06T17:15:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://coremansur.000webhostapp.com/?controller=connexion</loc>
+  <lastmod>2022-01-06T17:15:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://coremansur.000webhostapp.com/?controller=contact</loc>
+  <lastmod>2022-01-06T17:15:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://coremansur.000webhostapp.com/?controller=CGV</loc>
+  <lastmod>2022-01-06T17:15:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://coremansur.000webhostapp.com/?controller=panier</loc>
+  <lastmod>2022-01-06T17:15:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://coremansur.000webhostapp.com/?controller=info_article&amp;id=9</loc>
+  <lastmod>2022-01-06T17:15:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://coremansur.000webhostapp.com/?controller=info_article&amp;id=17</loc>
+  <lastmod>2022-01-06T17:15:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://coremansur.000webhostapp.com/?controller=info_article&amp;id=5</loc>
+  <lastmod>2022-01-06T17:15:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://coremansur.000webhostapp.com/?controller=info_article&amp;id=21</loc>
+  <lastmod>2022-01-06T17:15:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://coremansur.000webhostapp.com/?controller=info_article&amp;id=20</loc>
+  <lastmod>2022-01-06T17:15:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://coremansur.000webhostapp.com/?controller=info_article&amp;id=18</loc>
+  <lastmod>2022-01-06T17:15:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://coremansur.000webhostapp.com/?controller=mdp_oublie</loc>
+  <lastmod>2022-01-06T17:15:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://coremansur.000webhostapp.com/?controller=inscription</loc>
+  <lastmod>2022-01-06T17:15:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://coremansur.000webhostapp.com/?controller=shop&amp;action=galerie</loc>
+  <lastmod>2022-01-06T17:15:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+
+
+</urlset>

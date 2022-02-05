@@ -1,0 +1,246 @@
+html body {
+  margin: auto;
+}
+
+section {
+  height: 100vh;
+  display: flex;
+}
+
+.carousel {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+.carousel > ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.slide {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  transition: 200ms opacity ease-in-out;
+}
+
+.slide > img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.slide[data-active] {
+  opacity: 1;
+}
+
+.carousel-button {
+  position: absolute;
+  z-index: 2;
+  background: none;
+  border: none;
+  font-size: 2rem;
+  top: 50%;
+  transform: translateY(50%);
+  color: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+.carousel-button:hover,
+.carousel-button:focus {
+  color: black;
+}
+
+.carousel-button.prev {
+  right: 7rem;
+}
+
+.carousel-button.next {
+  left: 7rem;
+}
+.navbar {
+  width: 100%;
+}
+.head {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: 20px;
+}
+
+.head nav {
+  display: inline;
+}
+
+.logo img {
+  height: 96px;
+  margin-left: 10px;
+}
+
+.container {
+  position: relative;
+  height: 100vh;
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  scrollbar-width: 10px;
+}
+
+.bg1 {
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #109edff5;
+  /*background-image: url("https://cdn.pixabay.com/photo/2015/04/19/08/32/rose-729509_960_720.jpg");*/
+  /*filter: blur(0.001px);*/
+  /*transition: 0.01s;*/
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.bg2 {
+  justify-content: center;
+  align-items: center;
+  /*background: #da563e;*/
+  background-image: url("http://127.0.0.1/eds-www/Inme/back%20end/Content/img/homeimg.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.bg3 {
+  justify-content: center;
+  align-items: center;
+  background: #45b96c;
+  /*background-image: url("https://cdn.pixabay.com/photo/2018/08/16/19/56/wedding-rings-3611277_960_720.jpg");*/
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.bg1 .h1 {
+  /*background: #45b96c;*/
+  width: 900px;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bg1 h1 {
+  font-size: 60px;
+  opacity: 0;
+  transition: 0.2s ease-out;
+}
+
+.bg1 .h1:hover > h1 {
+  transition: 0.2s ease-in;
+  opacity: 1;
+}
+
+.box1 {
+  position: relative;
+  right: 200px;
+  height: 600px;
+  width: 350px;
+  background: #45b96c;
+}
+
+.box1 img {
+  padding: 5px;
+  height: 600px;
+  width: 350px;
+}
+
+.text1 {
+  border: 1px solid rgb(165, 112, 123);
+  background: rgb(235, 198, 198);
+  position: relative;
+  left: 50px;
+  height: 250px;
+  width: 600px;
+  transition: 0.2s ease;
+}
+
+.text1 p {
+  padding: 10px;
+  font-size: 20px;
+  color: black;
+}
+
+.tail li {
+  margin: 150px;
+  display: inline;
+}
+
+.tail a {
+  color: black;
+  text-decoration: none;
+}
+
+.tail a i {
+  size: 5;
+}
+
+#padding {
+  padding: 0px 17%;
+  padding-top: 2%;
+  text-align: center;
+  margin: 5% 20%;
+}
+
+.border-white {
+  border: 8px white solid;
+  background-color: #f2f3f2;
+  width: 100%;
+}
+
+input:focus {
+  outline: none;
+}
+#soumettre {
+  background-color: #1d1714;
+  color: white;
+  display: flex;
+  justify-content: end;
+  font-weight: bold;
+}
+
+.duo {
+  margin: 60px 0px;
+}
+
+input {
+  font-size: x-large;
+}
+.placement p {
+  font-size: x-large;
+  justify-content: flex-start;
+  display: flex;
+}
+
+.placement input {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.placement .submit {
+  background-color: #1d1714;
+  color: white;
+  font-weight: bold;
+}
+
+.placement .duo div {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 800px) {
+  #padding {
+    margin: 0px;
+  }
+}
